@@ -11,7 +11,7 @@ function App() {
         <SiteHeader />
         <Routes>
           <Route path='/' element={<HomePage />} />
-          <Route path="/details/:id" element={<ReviewDetails />} />
+          <Route path="/details/:reviewId" element={<ReviewDetails />} />
           <Route path="/category/:id" element={<Category />} />
         </Routes>
       </BrowserRouter>
